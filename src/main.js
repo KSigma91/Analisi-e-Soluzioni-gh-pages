@@ -3,7 +3,7 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import VueSweetalert2 from 'vue-sweetalert2'
 import gsap from 'gsap'
-import ScrollToPlugin from 'gsap/ScrollToPlugin'
+import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
 import VueMeta from 'vue-meta';
 
 gsap.registerPlugin(ScrollToPlugin)
