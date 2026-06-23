@@ -4,8 +4,11 @@ const SitemapPlugin = require('sitemap-webpack-plugin').default
 module.exports = defineConfig({
   transpileDependencies: true,
 
+<<<<<<< HEAD
   outputDir: 'docs',
 
+=======
+>>>>>>> bc034e451913f6433d5a409d809b953f5c8845a1
   publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
 
   configureWebpack: {
