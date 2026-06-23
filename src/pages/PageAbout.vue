@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="col-lg-6 order-1 d-flex justify-content-center align-items-center">
-                        <video data-v-3e2ed5d2="" preload="metadata" playsinline="" muted="muted" autoplay="autoplay" loop="loop" plays-inline="" type="video/quicktime" src="/videos/Amg_Lab_Web.mp4" class="img-fluid"></video>
+                        <video data-v-3e2ed5d2="" preload="metadata" playsinline="" muted="muted" autoplay="autoplay" loop="loop" plays-inline="" type="video/quicktime" :src="videoHero" class="img-fluid"></video>
                     </div>
                 </div>
             </section>
@@ -208,6 +208,7 @@ export default {
     },
     data() {
         return {
+            videoHero: process.env.BASE_URL + 'videos/Amg_Lab_Web.mp4', 
             pilotProfile: [
                 {
                     photo: require("../assets/Alessio-Montinaro_rid.jpg"),
