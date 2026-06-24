@@ -18,7 +18,7 @@ module.exports = defineConfig({
           '/preventivi',
           '/revisioni',
           '/consulenze',
-          '/privacy&cookie'
+          '/privacy-cookie'
         ]
       })
     ]

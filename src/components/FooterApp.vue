@@ -91,7 +91,7 @@
                     </div>
                     <div class="col-lg-6">
                         <ul class="list-inline text-center text-lg-end small mb-0">
-                            <li class="list-inline-item"><router-link class="link-light text-decoration-none text-white-50" to="/privacy&cookie">Privacy Policy</router-link></li>
+                            <li class="list-inline-item"><router-link class="link-light text-decoration-none text-white-50" to="/privacy-cookie">Privacy Policy</router-link></li>
                             <li class="list-inline-item text-white-50">·</li>
                             <li class="list-inline-item"><router-link @click.native="goToContact" to="/#contattaci" class="link-light text-decoration-none text-white-50">Contatti</router-link></li>
                         </ul>

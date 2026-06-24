@@ -56,8 +56,8 @@ const routes = [
         component: Consultancy
     },
     {
-        path: '/privacy&cookie',
-        name: 'privacy&cookie',
+        path: '/privacy-cookie',
+        name: 'privacy-cookie',
         component: Legal
     },
     {
