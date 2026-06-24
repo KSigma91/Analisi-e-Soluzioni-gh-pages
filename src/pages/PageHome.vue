@@ -272,8 +272,8 @@
                                                 </div>
                                                 <div>
                                                     <div class="fw-semibold text-white">Email</div>
-                                                    <a href="mailto:info@amglab.it" class="link-light text-decoration-none">
-                                                        info@amglab.it
+                                                    <a href="mailto:amglab.info@gmail.com" class="link-light text-decoration-none">
+                                                        amglab.info@gmail.com
                                                     </a>
                                                 </div>
                                             </div>
